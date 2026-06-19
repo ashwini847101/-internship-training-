@@ -1,37 +1,25 @@
-let name = "Ashwini";
-const age = 21;
+ // 1. Declare a const for your name and a let for your age
+const name = "Piyush Roy";
+let age = 21;
 
-let isStudent = true;
-let city = null;
-let course;
+// 2. Add a boolean and an array of your skills
+const isStudent = true;
+const skills = ["HTML", "CSS", "JavaScript"];
 
-let skills = ["HTML", "CSS", "JavaScript"];
-
-let student = {
-    name: "Ashwini",
-    age: 21,
-    college: "B.Tech"
-};
-
-// typeof
+// 3. Log each one and its type
+console.log(name);
 console.log(typeof name);
+
+console.log(age);
 console.log(typeof age);
+
+console.log(isStudent);
 console.log(typeof isStudent);
-console.log(typeof city);
-console.log(typeof course);
 
-// Arithmetic
-console.log(age + 5);
-console.log(age - 1);
-
-// Comparison
-console.log(age > 18);
-console.log(age == 21);
-
-// Template Literal
-let message = `My name is ${name} and I am ${age} years old.`;
-console.log(message);
-
-// Array & Object
 console.log(skills);
-console.log(student);
+console.log(typeof skills);
+
+// 4. Build a greeting with a template literal and log it
+const greeting = `Hello! My name is ${name} and I am ${age} years old.`;
+
+console.log(greeting);
